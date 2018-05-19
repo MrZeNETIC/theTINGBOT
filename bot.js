@@ -30,15 +30,5 @@ client.on('message', message => {
   	}
 });
 
-joke1 = 'Whats the best time to go to the dentist, tooth-hurty'
-joke2 = 'Im reading a book about anti gravity, its impossible to put down'
-client.on('message', message => {
-    if (message.content === '!joke') {
-    	jokes = random[joke1, joke2]
-        message.reply jokes
-  	}
-});
-
-
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
