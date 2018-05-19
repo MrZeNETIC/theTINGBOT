@@ -19,7 +19,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'memes pls') {
-    	message.reply('to hard, maybe later');
+    	message.reply('A link cuz idk how to image, https://www.google.ca/search?q=ting+meme&source=lnms&tbm=isch&sa=X&ved=0ahUKEwiyqfOM2JLbAhUrrlQKHS6eDtUQ_AUICigB&biw=1920&bih=974#imgrc=iBr3usWYc4rIsM:');
   	}
 });
 
