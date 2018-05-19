@@ -23,5 +23,12 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '!help') {
+    	message.reply('This bot is still under development, however available commands inclue the folllowing:');
+        message.channel.sendMessage('!help: list commands \n memes pls: gives a link to a meme \n ping: replies with pong');
+  	}
+});
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
