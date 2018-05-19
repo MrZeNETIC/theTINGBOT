@@ -11,13 +11,6 @@ client.on('message', message => {
   	}
 });
 
-});
-
-client.on('message', message => {
-    if (message.content === 'ting pun pls') {
-    	message.reply('every-ting is great when ting is here');
-  	}
-});
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
