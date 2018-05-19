@@ -30,5 +30,14 @@ client.on('message', message => {
   	}
 });
 
+client.on('message', message => {
+    if (message.content === '!joke') {
+    	 randomjoke = random[joke1, joke2]
+        
+  	}
+});
+joke1 = message.reply('Whats the best time to go to the dentist, tooth-hurty')
+joke1 = message.reply('Im reading a book about anti-gravity. Its imposibble to put down"
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
