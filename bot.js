@@ -25,7 +25,7 @@ client.on('message', message => {
 
 client.on('message', message => {
     if (message.content === 'who is ting') {
-    	message.reply('Well my good sir, you see ting is the best of us all He is the lord, at everything, trully brings out the best in all of us');
+    	message.channel.send('Well my good sir, you see ting is the best of us all \nHe is the lord, at everything, trully brings out the best in all of us \nEven though sometimes he does leave us to become a ghost-ting :joy:');
   	}
 });
 
