@@ -3,13 +3,6 @@ const client = new Discord.Client();
 
 
 
-var memes = {
-    "https://i.pinimg.com/originals/eb/8a/38/eb8a385b4555ba3e66463d02cc2b5a94.jpg",
-    "https://pics.me.me/priest-do-you-take-my-man-as-your-hubby-girl-5369999.png",
-    "https://pics.me.me/when-you-buy-rice-krispies-mans-not-hot-michael-bapaah-27576125.png",
-    "https://pics.me.me/when-youre-showing-someone-a-video-and-they-tap-the-20604920.png",
-    "https://pics.me.me/when-you-holla-at-a-peng-ting-and-her-friends-10591348.png"
-}
 
 
 client.on('ready', () => {
@@ -29,8 +22,6 @@ client.on('message', message => {
     	message.reply('no');
   	}
 });
-
-
 
 
 
