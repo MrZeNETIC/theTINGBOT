@@ -7,7 +7,7 @@ const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
-    client.User.setGame('.help for a list of commands')
+    //client.User.setGame('.help for a list of commands')
 });
 
 
