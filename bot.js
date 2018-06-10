@@ -1,5 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+import math
+
 
 var memes = [
     "https://i.pinimg.com/originals/eb/8a/38/eb8a385b4555ba3e66463d02cc2b5a94.jpg",
@@ -26,6 +28,13 @@ client.on('message', message => {
     if (message.content === 'please') {
     	message.reply('no');
   	}
+});
+
+client.on('message', message => {
+    if (message.content === 'memes pls') {
+        var meme = Math.random() * (2 - 0) + 0;
+       message.channel.send("Here's you a meme!",{files[memes[meme]]});
+    }
 });
 
 client.on('message', message => {
