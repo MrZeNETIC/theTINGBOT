@@ -9,7 +9,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-bot.on('ready', () => { bot.user.setGame('.help for a list of commands') })
+
 
 client.on('message', message => {
     if (message.content === 'ping') {
