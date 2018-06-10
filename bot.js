@@ -14,7 +14,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-if (message.content === '~help') {
+if (message.content === 'memes pls') {
     var meme = Math.random() * (2 - 0) + 0;
     message.channel.send("Here's you a meme!",{files[memes[meme]]});
 
@@ -39,7 +39,7 @@ client.on('message', message => {
 client.on('message', message => {
     if (message.content === '.help') {
     	message.reply('This bot is still under development, however available commands inclue the folllowing:');
-        message.channel.sendMessage(' !help: list commands \n memes pls: gives a link to a meme \n ping: replies with pong');
+        message.channel.sendMessage(' .help: list commands \n memes pls: gives a link to a meme \n ping: replies with pong');
   	}
 });
 
