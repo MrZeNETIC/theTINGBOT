@@ -14,9 +14,7 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-if (message.content === 'memes pls') {
-    var meme = Math.random() * (2 - 0) + 0;
-    message.channel.send("Here's you a meme!",{files[memes[meme]]});
+
 
 client.on('message', message => {
     if (message.content === 'ping') {
